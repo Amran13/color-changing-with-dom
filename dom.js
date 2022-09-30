@@ -1,4 +1,8 @@
-document.getElementById('yellow').addEventListener('click', function(){
+function changeColor(btnId, color){
+    document.getElementById(btnId).addEventListener('click', document.body.style.backgroundColor = color)
+}
+
+/* document.getElementById('yellow').addEventListener('click', function(){
     document.body.style.backgroundColor = 'yellow';
 });
 document.getElementById('royal-blue').addEventListener('click', function(){
@@ -15,4 +19,5 @@ document.getElementById('golden-rod').addEventListener('click', function(){
 });
 document.getElementById('default').addEventListener('click', function(){
     document.body.style.backgroundColor = 'white';
-});
+}); */
+
